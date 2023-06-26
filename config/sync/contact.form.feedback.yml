@@ -1,0 +1,14 @@
+uuid: dd9e54bd-09d2-4d1b-8cba-6fb1d1a7ce52
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: vymHlgJy26BuI5GGj9-IXjwR3dRC5C0tij4BpWJnoqw
+id: feedback
+label: 'Website feedback'
+recipients:
+  - rohan.singh@innoraft.com
+reply: ''
+weight: 0
+message: 'Your message has been sent.'
+redirect: ''

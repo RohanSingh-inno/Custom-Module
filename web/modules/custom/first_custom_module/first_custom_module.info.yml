@@ -1,0 +1,8 @@
+name: first custom module
+type: module
+description: 'First Custom module for Drupal'
+package: Custom
+core_version_requirement: ^9 || ^10
+version: '1.0'
+dependencies: 
+  - admin_toolbar:admin_toolbar
