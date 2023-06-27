@@ -21,7 +21,7 @@ sites//services.yml
 # Ignore paths that contain user-generated content.
 web/sites/*/files/
 web/sites/default/*/files
-web/modules/*/
+web/modules/contrib/
 web/themes/contrib/
 web/themes/custom/
 web/core/*/
