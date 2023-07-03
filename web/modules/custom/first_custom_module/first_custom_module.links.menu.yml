@@ -1,0 +1,21 @@
+# first_custom_module.Page1:
+#   title: 'Introduction'
+#   description: 'This is the introduction page'
+#   parent: system.admin_config_development
+#   route_name: first_custom_module.Page1
+#   weight: 7 
+#   menu_name: main
+#   options:
+#     attributes:
+#       target: _blank
+
+# first_custom_module.Page2:
+#   title: 'Introduction-2'
+#   description: 'This is the second intro page'
+  # parent: system.admin_config_development
+  # route_name: 'first_custom_module.Page2' 
+  # weight: 100 
+  # menu_name: 'main'
+  # options:
+  #   attributes:
+  #     target: '_blank'
