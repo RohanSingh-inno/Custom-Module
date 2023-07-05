@@ -1,0 +1,3 @@
+Permissions:
+  title: 'Display'
+  description: 'this permission only allows the user to view the page'
