@@ -1,0 +1,15 @@
+routing_module.static:
+  path: '/static'
+  defaults:
+    _controller: 'Drupal\routing_module\Controller\RoutingController::static'
+    _title: 'Static Page'
+  requirements:
+    _permission: 'Permissions'  
+
+routing_module.campaign:
+  path: '/campaign/value/{user}'    
+  defaults:
+    _controller: 'Drupal\routing_module\Controller\RoutingController::campaign'
+    _title: 'Campaign Page'
+  requirements:
+    _permission: 'access content'  

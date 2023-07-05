@@ -1,0 +1,8 @@
+name: Routing Module
+description: This is the module created for the FT2023-342
+type: module
+package: Custom
+version: 1.0
+core_version_requirement: ^9 || ^10
+
+   
