@@ -1,8 +1,6 @@
 name: first custom module
 type: module
-description: 'First Custom module for Drupal'
+description: 'Custom module for Drupal ticket FT2023-339'
 package: Custom
 core_version_requirement: ^9 || ^10
 version: '1.0'
-dependencies: 
-  - admin_toolbar:admin_toolbar
