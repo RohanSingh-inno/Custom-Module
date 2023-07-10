@@ -1,0 +1,7 @@
+name: Form API
+type: module
+description: 'Custom mdoule for ticket FT2023-341'
+package: Custom
+core_version_requirement: ^9 | ^10
+version: '1.0'
+configure: form_api.admin_settings
