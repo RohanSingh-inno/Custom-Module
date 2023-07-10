@@ -1,0 +1,7 @@
+form_api.admin_settings:
+  path: '/admin/config/form_api'
+  defaults:
+    _form: '\Drupal\form_api\Form\customForm'
+    _title: 'Config Form'
+  requirements:
+    _permission: 'Form Configuration Settings'
