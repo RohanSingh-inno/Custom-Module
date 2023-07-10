@@ -1,17 +1,17 @@
-first_custom_module.Page1:
+first_custom_module.page1:
   title: 'Introduction'
   description: 'This is the introduction page'
-  route_name: first_custom_module.Page1
-  weight: 7 
-  menu_name: main
+  route_name: first_custom_module.page1
+  weight: 100
+  menu_name: 'main'
   options:
     attributes:
-      target: _blank
+      target: '_blank'
 
-first_custom_module.Page2:
+first_custom_module.page2:
   title: 'Introduction-2'
   description: 'This is the second intro page'
-  route_name: 'first_custom_module.Page2' 
+  route_name: first_custom_module.page2
   weight: 100 
   menu_name: 'main'
   options:
