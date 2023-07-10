@@ -24,7 +24,7 @@ web/sites/default/*/files
 web/modules/contrib/
 web/themes/contrib/
 web/themes/custom/
-web/core/*/
+web/core/
 # Ignore multi-site test environment.
 sites/simpletest
 # If you prefer to store your .gitignore file in the sites/ folder, comment
