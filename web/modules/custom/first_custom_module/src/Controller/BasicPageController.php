@@ -9,8 +9,7 @@ use Drupal\Core\Session\AccountInterface;
 /**
  * Class for showing the pages.
  */
-class BasicPageController extends ControllerBase
-{
+class BasicPageController extends ControllerBase{
 
     protected $account;
 
