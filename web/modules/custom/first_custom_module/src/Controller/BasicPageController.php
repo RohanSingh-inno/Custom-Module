@@ -13,30 +13,14 @@ class BasicPageController extends ControllerBase{
 
     protected $account;
 
-    public function __construct(AccountInterface $account)
-    {
-        $this->account = $account;
+    public function __construct(AccountInterface $account){
+      $this->account = $account;
     }
 
-    public static function create(ContainerInterface $container)
-    {
-        return new static(
-            $container->get('current_user')
-        );
-    }
-
-    /**
-     * Display the markup.
-     *
-     * @return array
-     *   Return markup array.
-     */
-    public function page1()
-    {
-        return [
-        '#type' => 'markup',
-        '#markup' => $this->t('Hi ' . $this->account->getAccountName() . '!!')
-        ];
+    public static function create(ContainerInterface $container){
+      return new static(
+        $container->get('current_user')
+      );
     }
 
     /**
@@ -45,12 +29,24 @@ class BasicPageController extends ControllerBase{
      * @return array
      *   Return markup array.
      */
-    public function page2()
-    {
-        return [
-        '#title' => 'Hi arijit this side',
-        '#data' => 'This is the data field'
-        ];
+    public function page1(){
+      return [
+      '#type' => 'markup',
+      '#markup' => $this->t('Hi ' . $this->account->getAccountName() . '!!')
+      ];
+    }
+
+    /**
+     * Display the markup.
+     *
+     * @return array
+     *   Return markup array.
+     */
+    public function page2(){
+      return [
+      '#title' => 'Hi arijit this side',
+      '#data' => 'This is the data field'
+      ];
     }
 
 }
