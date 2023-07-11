@@ -19,20 +19,14 @@ class BasicPageController extends ControllerBase {
   protected $account;
 
   /**
-   * Constructor Function which initializes user's details to a variable.
-   *
-   * @param \Drupal\Core\Session\AccountInterface $account
-   *   Defines an account interface which represents the current user.
+   * {@inheritDoc}
    */
   public function __construct(AccountInterface $account) {
     $this->account = $account;
   }
 
   /**
-   * Function that creates an Instance of the class.
-   *
-   * @param \Symfony\Component\DependencyInjection\ContainerInterface $container
-   *   It is the interface implemented by service container classes.
+   * {@inheritDoc}
    */
   public static function create(ContainerInterface $container) {
     return new static(
