@@ -1,24 +1,25 @@
 <?php
-/**
- *  @file
- * This file demonstrates how to use hook functions
- */
-
 
 /**
- * Impliment hook cron
+ * @file
+ * This file demonstrates how to use hook functions.
  */
-function first_custom_module_cron()
-{
-  \Drupal::messenger()->addMessage(t("HEllo this is the first hook"));
+
+use Drupal\Core\Form\FormStateInterface;
+
+/**
+ * Implements hook_cron().
+ */
+function first_custom_module_cron() {
+  \Drupal::messenger()->addMessage(t("Hello this is the first hook"));
 }
 
-
 /**
- * Impliment form_alter_hook
+ * Implements hook_form_alter().
+ *
+ * Used to alter the form structure value.
  */
-function first_custom_module_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id)
-{
+function first_custom_module_form_alter(&$form, FormStateInterface $form_state, $form_id) {
   if ($form_id == 'node_article_edit_form') {
     $form['actions']['submit']['#value'] = t("Save kardu sir?");
   }
@@ -28,13 +29,12 @@ function first_custom_module_form_alter(&$form, \Drupal\Core\Form\FormStateInter
 }
 
 /**
- * Implement hook_help 
+ * Implements hook_help().
+ *
+ * Displays help and module information.
  */
-function first_custom_module_help($path, $arg)
-{
+function first_custom_module_help($path, $arg) {
   if ($path == 'admin/help#first_custom_module') {
     return t("Koi help nhi milega..khud se karo!!");
   }
 }
-
-?>
