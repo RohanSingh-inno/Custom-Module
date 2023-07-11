@@ -1,0 +1,15 @@
+first_custom_module.page1:
+  path: '/page1'
+  defaults:
+    _controller: 'Drupal\first_custom_module\Controller\BasicPageController::page1'
+    _title: 'Custom module'
+  requirements:
+    _permission: 'information permission'  
+
+first_custom_module.page2:
+  path: '/page2'
+  defaults:
+    _controller: 'Drupal\first_custom_module\Controller\BasicPageController::page2'
+    _title: 'Custom module'
+  requirements:
+    _permission: 'access content'      

@@ -1,0 +1,6 @@
+name: First custom module
+type: module
+description: 'Custom module for Drupal ticket FT2023-339'
+package: Custom
+core_version_requirement: ^10
+version: '1.0'
