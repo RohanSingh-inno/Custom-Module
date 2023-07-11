@@ -12,21 +12,27 @@ use Symfony\Component\DependencyInjection\ContainerInterface;
 class BasicPageController extends ControllerBase {
 
   /**
-   * Account information.
+   * Variable that holds the user's information.
    *
-   * @var string
+   * @var \Drupal\Core\Session\AccountInterface
    */
   protected $account;
 
   /**
-   * Constructor function.
+   * Constructor Function which initializes user's details to a variable.
+   *
+   * @param \Drupal\Core\Session\AccountInterface $account
+   *   Defines an account interface which represents the current user.
    */
   public function __construct(AccountInterface $account) {
     $this->account = $account;
   }
 
   /**
-   * Function to get current user.
+   * Function that creates an Instance of the class.
+   *
+   * @param \Symfony\Component\DependencyInjection\ContainerInterface $container
+   *   It is the interface implemented by service container classes.
    */
   public static function create(ContainerInterface $container) {
     return new static(
