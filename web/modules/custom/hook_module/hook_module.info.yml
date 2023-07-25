@@ -1,5 +1,5 @@
 name: Hook module
 type: module
-description: 'Custom module developed for Drupal ticket FT2023-340'
+description: 'Custom module developed for ticket FT2023-340'
 package: Custom
 core_version_requirement: ^10
