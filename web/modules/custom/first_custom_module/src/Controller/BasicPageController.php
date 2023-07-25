@@ -29,7 +29,9 @@ class BasicPageController extends ControllerBase {
    * {@inheritDoc}
    */
   public static function create(ContainerInterface $container) {
+    // Instantiates this form class.
     return new static(
+      // Load the service required to construct this class.
       $container->get('current_user')
     );
   }
@@ -41,11 +43,10 @@ class BasicPageController extends ControllerBase {
    *   Return markup array.
    */
   public function page1() {
-    $name = $this->account->getAccountName();
     return [
       '#type' => 'markup',
-      '#markup' => $this->t('Hi @name !!', [
-        "@name" => $name,
+      '#markup' => $this->t('Hi @user !!', [
+        '@user' => $this->account->getAccountName(),
       ]),
     ];
   }
