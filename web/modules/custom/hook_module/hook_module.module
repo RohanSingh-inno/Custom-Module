@@ -10,7 +10,7 @@ use Drupal\Core\Form\FormStateInterface;
 /**
  * Implements hook_cron().
  */
-function first_custom_module_cron() {
+function hook_module_cron() {
   \Drupal::messenger()->addMessage(t("Hello this is the first hook"));
 }
 
@@ -19,7 +19,7 @@ function first_custom_module_cron() {
  *
  * Used to alter the form structure value.
  */
-function first_custom_module_form_alter(array &$form, FormStateInterface $form_state, $form_id) {
+function hook_module_form_alter(array &$form, FormStateInterface $form_state, $form_id) {
   if ($form_id == 'node_article_edit_form') {
     $form['actions']['submit']['#value'] = t("Save kardu sir?");
   }
@@ -33,8 +33,8 @@ function first_custom_module_form_alter(array &$form, FormStateInterface $form_s
  *
  * Displays help and module information.
  */
-function first_custom_module_help($path, $arg) {
+function hook_module_help($path, $arg) {
   if ($path == 'admin/help#first_custom_module') {
-    return t("Koi help nhi milega..khud se karo!!");
+    return t("Koi help nhi milega..khud se karo!");
   }
 }
