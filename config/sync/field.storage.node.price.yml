@@ -1,0 +1,22 @@
+uuid: 3a28ecb9-bb4d-46da-8526-dc3380839c07
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: sWpvhAakvTtqy9jrdMIAEZshITcBMABS5riqEL-jan0
+id: node.price
+field_name: price
+entity_type: node
+type: decimal
+settings:
+  precision: 10
+  scale: 2
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

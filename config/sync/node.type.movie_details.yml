@@ -1,0 +1,16 @@
+uuid: f51f0e28-8287-4d3d-a8af-a14d7ef57d21
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - entity_movie
+_core:
+  default_config_hash: Cr2FEjhKWptcxHTHI_BH3b0qU_OJpXhg0jWxT-J1xUM
+name: Movie
+type: movie_details
+description: 'New content type as per the ticket FT2023-346'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: true
