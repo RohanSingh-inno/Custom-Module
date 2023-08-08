@@ -1,0 +1,32 @@
+uuid: 764c8a64-6647-4755-8508-61998afa5d06
+langcode: en
+status: true
+dependencies:
+  module:
+    - file
+    - image
+    - node
+_core:
+  default_config_hash: geGGAgaAJ3_0O16a7dY8xyW-5a_6TslBNW4_FfEwFMw
+id: node.image
+field_name: image
+entity_type: node
+type: image
+settings:
+  default_image:
+    uuid: null
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  target_type: file
+  display_field: false
+  display_default: false
+  uri_scheme: public
+module: image
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

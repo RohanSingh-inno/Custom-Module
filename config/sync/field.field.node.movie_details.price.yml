@@ -1,0 +1,25 @@
+uuid: 5af048af-a09c-4c65-ad22-94de1797826e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.price
+    - node.type.movie_details
+_core:
+  default_config_hash: Oe3nznk-HxrYYtb443g6A1_G9y9VLx1vh9urgQ8IzPM
+id: node.movie_details.price
+field_name: price
+entity_type: node
+bundle: movie_details
+label: Price
+description: 'Price of the movie ticket.'
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: ''
+  max: ''
+  prefix: ''
+  suffix: ''
+field_type: decimal
