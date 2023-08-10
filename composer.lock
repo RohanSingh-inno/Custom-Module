@@ -365,6 +365,7 @@
             "time": "2023-02-01T09:20:38+00:00"
         },
         {
+<<<<<<< HEAD
             "name": "doctrine/common",
             "version": "3.4.3",
             "source": {
@@ -456,6 +457,8 @@
             "time": "2022-10-09T11:47:59+00:00"
         },
         {
+=======
+>>>>>>> 90b9bb945990e914ea9b82c8a877eb98dc482bcc
             "name": "doctrine/deprecations",
             "version": "v1.1.1",
             "source": {
@@ -503,6 +506,7 @@
             "time": "2023-06-03T09:27:29+00:00"
         },
         {
+<<<<<<< HEAD
             "name": "doctrine/event-manager",
             "version": "2.0.0",
             "source": {
@@ -594,6 +598,8 @@
             "time": "2022-10-12T20:59:15+00:00"
         },
         {
+=======
+>>>>>>> 90b9bb945990e914ea9b82c8a877eb98dc482bcc
             "name": "doctrine/lexer",
             "version": "2.1.0",
             "source": {
@@ -672,6 +678,7 @@
             "time": "2022-12-14T08:49:07+00:00"
         },
         {
+<<<<<<< HEAD
             "name": "doctrine/persistence",
             "version": "3.2.0",
             "source": {
@@ -770,6 +777,8 @@
             "time": "2023-05-17T18:32:04+00:00"
         },
         {
+=======
+>>>>>>> 90b9bb945990e914ea9b82c8a877eb98dc482bcc
             "name": "drupal/admin_toolbar",
             "version": "3.4.1",
             "source": {
@@ -1376,6 +1385,7 @@
             }
         },
         {
+<<<<<<< HEAD
             "name": "drupal/devel",
             "version": "5.1.2",
             "source": {
@@ -1443,6 +1453,8 @@
             }
         },
         {
+=======
+>>>>>>> 90b9bb945990e914ea9b82c8a877eb98dc482bcc
             "name": "drupal/pathauto",
             "version": "1.11.0",
             "source": {
